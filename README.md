@@ -25,3 +25,23 @@ A simple JavaScript-based drawing application where users can draw different sha
 3. Use the toolbar to select different drawing tools, colors, and brush sizes.
 4. Click the "Save" button to download your creation as an image file.
 5. Clear the canvas to start a new drawing or use the undo/redo buttons to correct your work.
+
+
+## Installation
+
+No additional installation required. Just clone the repository and open the `index.html` file in your preferred browser.
+
+## Future Improvements
+
+- Add more shapes and drawing tools (e.g., rectangle, circle, etc.).
+- Implement keyboard shortcuts for tools and actions.
+- Add support for layers to enhance complex drawings.
+
+## Contributing
+
+Feel free to submit issues or fork the repository to add new features. Contributions are welcome!
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+Created by [Prashant Parshuramkar](https://github.com/PrashantPKP)
