@@ -7,6 +7,5 @@ A simple JavaScript-based drawing application where users can draw different sha
 - **Canvas Drawing**: Draw freely on the canvas using the mouse.
 - **Brush Tool**: Choose different brush sizes for precision drawing.
 - **Color Palette**: Select different colors for drawing.
-- **Delete Tool**: delete the drawing or start fresh.
-- **Save**: it can atomaticaly save in browser.
+
 - **Clear Canvas**: Clear the entire canvas for a new drawing.
