@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #e0e0e0; /* Slightly darker background for contrast */
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,29 +16,44 @@ body {
 }
 
 canvas {
-  border: 2px solid steelblue;
+  border: 3px solid #4682b4; /* Changed to a more defined border color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Added subtle shadow */
 }
 
 .toolbox {
-  background-color: steelblue;
-  border: 1px solid slateblue;
+  background-color: #4682b4; /* Adjusted to a more vibrant steel blue */
+  border: 2px solid #6a5acd; /* Increased border thickness */
   display: flex;
-  width: 804px;
-  padding: 1rem;
+  width: 820px; /* Slightly increased width */
+  padding: 1.2rem; /* Increased padding */
+  border-radius: 8px; /* Added rounded corners */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
 }
 
 .toolbox > * {
-  background-color: #fff;
-  border: none;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc; /* Added a light border to buttons */
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  height: 50px;
-  width: 50px;
-  margin: 0.25rem;
-  padding: 0.25rem;
+  font-size: 1.8rem; /* Reduced font size slightly */
+  height: 48px; /* Adjusted height */
+  width: 48px; /* Adjusted width */
+  margin: 0.3rem;
+  padding: 0.3rem;
   cursor: pointer;
+  border-radius: 6px; /* Added rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added transitions */
+}
+
+.toolbox > *:hover {
+  background-color: #f0f0f0; /* Change background on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.toolbox > *:active {
+  background-color: #dcdcdc; /* Change background on click */
+  transform: scale(1.05); /* Slightly shrink on click */
 }
 
 .toolbox > *:last-child {
